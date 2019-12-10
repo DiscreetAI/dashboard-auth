@@ -202,17 +202,17 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(weeks=1),
 }
 
-SESSION_COOKIE_DOMAIN = ".dataagora.com"
-CSRF_COOKIE_DOMAIN = ".dataagora.com"
+SESSION_COOKIE_DOMAIN = ".discreetai.com"
+CSRF_COOKIE_DOMAIN = ".discreetai.com"
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = default_headers + (
     'cache',
 )
-CORS_ORIGIN_REGEX_WHITELIST = (r'^(https?://)?(\w+\.)?dataagora\.com$', )
+CORS_ORIGIN_REGEX_WHITELIST = (r'^(https?://)?(\w+\.)?discreetai\.com$', )
 
 CORS_ORIGIN_WHITELIST = (
-    'buy.dataagora.com',
-    'beta.dataagora.com',
+    'buy.discreetai.com',
+    'beta.discreetai.com',
     'localhost:3000'
 )
