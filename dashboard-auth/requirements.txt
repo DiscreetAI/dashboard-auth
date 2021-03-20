@@ -14,7 +14,7 @@ django-cors-headers==2.2.0
 djangorestframework-jwt==1.11.0
 idna==2.6
 itypes==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 Markdown==2.6.10
 MarkupSafe==1.0
 oauthlib==2.0.6
